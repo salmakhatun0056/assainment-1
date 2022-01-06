@@ -13,9 +13,8 @@ body{
 .half-width{
     width: 50%;    
 }
-
 .half-width img{
-    width: 50%;
+    width: 70%;
 }
 .half-width-2{
     width: 75%;
