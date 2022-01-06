@@ -53,20 +53,20 @@ h3{
     text-decoration: none;
     color: white;
     font-weight: 700;
-    background-color: rgb(38, 0, 255);
+    background-color: rgba(14, 1, 85, 0.733);
     padding: 10px 40px;
     margin-top: 100px;
-    border-radius: 3px;
-    background-image: linear-gradient(rgb(38, 0, 255), violet);
+    border-radius: 5px;
 }
 .font-changing{
     font-family:'Roboto', sans-serif;
 }
 #left-border{
-    border-image: linear-gradient(rgb(38, 0, 255), violet);
+    border-image: linear-gradient(rgba(14, 1, 85, 0.733), violet);
     border-left:3px solid;
     border-image-slice: 1;
     padding-left:10px ;
+    font-family:Serif;
 }
 .change-align{
     text-align: center;
