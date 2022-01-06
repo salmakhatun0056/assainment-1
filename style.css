@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 50px;
@@ -39,6 +42,7 @@ h1{
 }
 h2{
     font-size: 50px;
+    font-weight:700;
 }
 h3{
     font-size: 40px;
@@ -59,7 +63,7 @@ h3{
     border-radius: 5px;
 }
 .font-changing{
-    font-family:'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #left-border{
     border-image: linear-gradient(rgba(14, 1, 85, 0.733), violet);
@@ -70,8 +74,6 @@ h3{
 }
 .change-align{
     text-align: center;
-    font-size: 40px;
-    font-weight: 900;
 }
 .photo-size{
     width: 35%;
@@ -107,8 +109,20 @@ footer{
     padding: 5px;
     margin: 0%;
 }
-body{
-    margin: 0;
+.last-align{
+    text-align: center;
+}
+.image-div{
+    width: 10%;
+    margin: auto;
+}
+.set-logo{
+    height:5%;
+    justify-content: space-around;
+
+}
+.set-logo img{
+    width: 50%;
 }
 .footer-color{
      color: rgb(255, 188, 5);
@@ -117,7 +131,7 @@ body{
     margin: 0%;
 }
 .final-font{
-    font-family: 'Licorice', cursive;
+    font-family: 'Norican', cursive;
     font-size: 30px;
 }
 
